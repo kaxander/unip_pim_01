@@ -1,0 +1,666 @@
+[
+    {
+        "titulo": "Introdução à Programação com Python",
+        "etapas": [
+            {
+                "titulo": "O que é Programação?",
+                "conteudos": [
+                    {
+                        "parte": "Programar é dar instruções ao computador para que ele execute tarefas. Assim como uma receita de bolo ensina passo a passo o que fazer, um programa diz ao computador o que ele deve fazer, em qual ordem e como."
+                    },
+                    {
+                        "parte": "Você pode usar a programação para criar sites, aplicativos, jogos, sistemas de empresas e até controlar robôs!"
+                    },
+                    {
+                        "parte": "Python é uma linguagem de programação muito usada e recomendada para quem está começando. Ela é simples de escrever e fácil de entender."
+                    }
+                ],
+                "quiz": [
+                    {
+                        "pergunta": "O que é um programa de computador?",
+                        "opcoes": [
+                            "Um aplicativo que toca músicas",
+                            "Um conjunto de instruções que o computador executa",
+                            "Um robô físico",
+                            "Uma rede de internet"
+                        ],
+                        "correta": "Um conjunto de instruções que o computador executa"
+                    },
+                    {
+                        "pergunta": "Qual linguagem é conhecida por ser fácil para iniciantes?",
+                        "opcoes": [
+                            "C++",
+                            "Python",
+                            "Java",
+                            "Assembly"
+                        ],
+                        "correta": "Python"
+                    },
+                    {
+                        "pergunta": "Qual destes é um uso da programação?",
+                        "opcoes": [
+                            "Fazer bolos",
+                            "Montar móveis",
+                            "Criar aplicativos",
+                            "Consertar geladeiras"
+                        ],
+                        "correta": "Criar aplicativos"
+                    },
+                    {
+                        "pergunta": "Programar é parecido com:",
+                        "opcoes": [
+                            "Ler um livro",
+                            "Dar instruções passo a passo",
+                            "Ouvir música",
+                            "Desenhar"
+                        ],
+                        "correta": "Dar instruções passo a passo"
+                    },
+                    {
+                        "pergunta": "Quem executa o programa criado por você?",
+                        "opcoes": [
+                            "O programador",
+                            "O computador",
+                            "O celular",
+                            "A internet"
+                        ],
+                        "correta": "O computador"
+                    }
+                ]
+            },
+            {
+                "titulo": "Seu primeiro código em Python",
+                "conteudos": [
+                    {
+                        "parte": "Vamos escrever nosso primeiro código!\nEm Python, para mostrar algo na tela, usamos o comando `print()`.\nExemplo:\n```python\nprint(\"Olá, mundo!\")\n```"
+                    },
+                    {
+                        "parte": "Esse código faz o computador exibir a frase \"Olá, mundo!\" na tela. É o tradicional primeiro passo de quem está começando a programar."
+                    }
+                ],
+                "quiz": [
+                    {
+                        "pergunta": "O que o comando print() faz?",
+                        "opcoes": [
+                            "Imprime documentos",
+                            "Mostra texto na tela",
+                            "Cria uma variável",
+                            "Apaga um arquivo"
+                        ],
+                        "correta": "Mostra texto na tela"
+                    },
+                    {
+                        "pergunta": "O que acontece se você escrever `print(\"Oi\")`?",
+                        "opcoes": [
+                            "O computador trava",
+                            "Nada acontece",
+                            "Aparece 'Oi' na tela",
+                            "Abre um arquivo"
+                        ],
+                        "correta": "Aparece 'Oi' na tela"
+                    },
+                    {
+                        "pergunta": "Qual a função do parêntese em `print()`?",
+                        "opcoes": [
+                            "Separar números",
+                            "Indicar um erro",
+                            "Colocar o que será mostrado",
+                            "Criar uma variável"
+                        ],
+                        "correta": "Colocar o que será mostrado"
+                    },
+                    {
+                        "pergunta": "Qual desses comandos está correto?",
+                        "opcoes": [
+                            "print Olá",
+                            "print('Olá')",
+                            "print=Olá",
+                            "echo 'Olá'"
+                        ],
+                        "correta": "print('Olá')"
+                    },
+                    {
+                        "pergunta": "Se quiser mostrar seu nome na tela, você deve usar:",
+                        "opcoes": [
+                            "print(nome)",
+                            "input('nome')",
+                            "print(\"Seu nome\")",
+                            "def nome()"
+                        ],
+                        "correta": "print(\"Seu nome\")"
+                    }
+                ]
+            },
+            {
+                "titulo": "Variáveis: guardando informações",
+                "conteudos": [
+                    {
+                        "parte": "Variáveis são como caixinhas que guardam informações. Por exemplo, você pode guardar a idade de alguém em uma variável chamada `idade`:\n```python\nidade = 20\n```"
+                    },
+                    {
+                        "parte": "Você pode usar variáveis para armazenar textos, números e outros tipos de dados. Exemplo:\n```python\nnome = \"Maria\"\naltura = 1.65\n```"
+                    },
+                    {
+                        "parte": "Depois, você pode usar essas variáveis no seu programa. Exemplo:\n```python\nprint(\"Nome:\", nome)\nprint(\"Altura:\", altura)\n```"
+                    }
+                ],
+                "quiz": [
+                    {
+                        "pergunta": "Qual destas é uma variável válida em Python?",
+                        "opcoes": [
+                            "2nome",
+                            "altura!",
+                            "meu_nome",
+                            "nome completo"
+                        ],
+                        "correta": "meu_nome"
+                    },
+                    {
+                        "pergunta": "O que acontece se você escrever: `idade = 30`?",
+                        "opcoes": [
+                            "O computador imprime 30",
+                            "Você cria uma variável com valor 30",
+                            "Dá erro",
+                            "Nada"
+                        ],
+                        "correta": "Você cria uma variável com valor 30"
+                    },
+                    {
+                        "pergunta": "Qual destas opções representa uma variável com texto?",
+                        "opcoes": [
+                            "nome = 'João'",
+                            "idade = 'João'",
+                            "altura = 'João'",
+                            "altura = 1.80"
+                        ],
+                        "correta": "nome = 'João'"
+                    },
+                    {
+                        "pergunta": "Como usamos uma variável no comando print?",
+                        "opcoes": [
+                            "print + nome",
+                            "print(nome)",
+                            "show(nome)",
+                            "display(nome)"
+                        ],
+                        "correta": "print(nome)"
+                    },
+                    {
+                        "pergunta": "Podemos mudar o valor de uma variável?",
+                        "opcoes": [
+                            "Não, ela é fixa",
+                            "Sim, reatribuindo um novo valor",
+                            "Apenas se for um número",
+                            "Apenas se for texto"
+                        ],
+                        "correta": "Sim, reatribuindo um novo valor"
+                    }
+                ]
+            },
+            {
+                "titulo": "Tipos de dados",
+                "conteudos": [
+                    {
+                        "parte": "Cada variável tem um tipo de dado. Os mais comuns em Python são:\n- `int`: número inteiro (ex: 10, -5, 0)\n- `float`: número decimal (ex: 1.5, 3.14)\n- `str`: texto (ex: \"Olá\", \"Python\")\n- `bool`: verdadeiro ou falso (True ou False)"
+                    },
+                    {
+                        "parte": "Exemplos de uso:\n```python\nidade = 25          # int\naltura = 1.75       # float\nnome = \"Lucas\"      # str\nativo = True        # bool\n```"
+                    },
+                    {
+                        "parte": "É importante usar o tipo certo para que o programa funcione corretamente. Não se pode, por exemplo, somar texto com número."
+                    }
+                ],
+                "quiz": [
+                    {
+                        "pergunta": "Qual é o tipo de dado da variável `nome = \"João\"`?",
+                        "opcoes": [
+                            "int",
+                            "float",
+                            "str",
+                            "bool"
+                        ],
+                        "correta": "str"
+                    },
+                    {
+                        "pergunta": "Qual destas opções representa um valor booleano?",
+                        "opcoes": [
+                            "\"True\"",
+                            "10",
+                            "True",
+                            "\"Falso\""
+                        ],
+                        "correta": "True"
+                    },
+                    {
+                        "pergunta": "Qual tipo representa números decimais?",
+                        "opcoes": [
+                            "int",
+                            "bool",
+                            "float",
+                            "str"
+                        ],
+                        "correta": "float"
+                    },
+                    {
+                        "pergunta": "O que representa o tipo `int`?",
+                        "opcoes": [
+                            "Números inteiros",
+                            "Textos curtos",
+                            "Listas",
+                            "Booleanos"
+                        ],
+                        "correta": "Números inteiros"
+                    },
+                    {
+                        "pergunta": "Qual tipo de dado usamos para guardar 'Olá mundo'?",
+                        "opcoes": [
+                            "int",
+                            "float",
+                            "bool",
+                            "str"
+                        ],
+                        "correta": "str"
+                    }
+                ]
+            },
+            {
+                "titulo": "Entrada de dados com input()",
+                "conteudos": [
+                    {
+                        "parte": "Você pode pedir que o usuário digite algo usando `input()`.\nExemplo:\n```python\nnome = input(\"Digite seu nome: \")\nprint(\"Olá,\", nome)\n```"
+                    },
+                    {
+                        "parte": "`input()` sempre retorna um texto (string). Se quiser um número, é preciso converter:\n```python\nidade = int(input(\"Digite sua idade: \"))\n```"
+                    }
+                ],
+                "quiz": [
+                    {
+                        "pergunta": "O que o comando `input()` faz?",
+                        "opcoes": [
+                            "Envia um e-mail",
+                            "Lê algo digitado pelo usuário",
+                            "Cria uma imagem",
+                            "Desenha na tela"
+                        ],
+                        "correta": "Lê algo digitado pelo usuário"
+                    },
+                    {
+                        "pergunta": "Se você quiser ler um número inteiro com `input()`, o que precisa fazer?",
+                        "opcoes": [
+                            "Usar apenas input()",
+                            "Converter com int()",
+                            "Escrever número entre aspas",
+                            "Multiplicar por 1"
+                        ],
+                        "correta": "Converter com int()"
+                    },
+                    {
+                        "pergunta": "O que significa `idade = int(input())`?",
+                        "opcoes": [
+                            "Criar uma string",
+                            "Criar uma variável booleana",
+                            "Ler e converter o dado para inteiro",
+                            "Nada"
+                        ],
+                        "correta": "Ler e converter o dado para inteiro"
+                    },
+                    {
+                        "pergunta": "Qual será o tipo do valor retornado por `input()`?",
+                        "opcoes": [
+                            "int",
+                            "float",
+                            "str",
+                            "bool"
+                        ],
+                        "correta": "str"
+                    },
+                    {
+                        "pergunta": "Para exibir o nome digitado pelo usuário, usamos:",
+                        "opcoes": [
+                            "input(nome)",
+                            "print(nome)",
+                            "def nome()",
+                            "str(nome)"
+                        ],
+                        "correta": "print(nome)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "Lógica de Programação e Algoritmos",
+        "etapas": [
+            {
+                "titulo": "Entendendo algoritmos",
+                "conteudos": [
+                    {
+                        "parte": "Um algoritmo é uma sequência de passos para resolver um problema ou realizar uma tarefa."
+                    },
+                    {
+                        "parte": "Exemplo de algoritmo para escovar os dentes:\n1. Pegar a escova\n2. Colocar pasta\n3. Escovar os dentes\n4. Enxaguar"
+                    },
+                    {
+                        "parte": "Na programação, algoritmos são implementados com códigos para que o computador siga os passos automaticamente."
+                    }
+                ],
+                "quiz": [
+                    {
+                        "pergunta": "O que é um algoritmo?",
+                        "opcoes": [
+                            "Um código específico",
+                            "Uma sequência de passos",
+                            "Uma linguagem",
+                            "Um erro de sistema"
+                        ],
+                        "correta": "Uma sequência de passos"
+                    },
+                    {
+                        "pergunta": "Qual desses é um exemplo de algoritmo?",
+                        "opcoes": [
+                            "Um poema",
+                            "Uma receita de bolo",
+                            "Uma foto",
+                            "Um jogo de futebol"
+                        ],
+                        "correta": "Uma receita de bolo"
+                    },
+                    {
+                        "pergunta": "O que acontece se faltar um passo em um algoritmo?",
+                        "opcoes": [
+                            "Nada muda",
+                            "O resultado pode dar errado",
+                            "O computador cria o passo automaticamente",
+                            "Fica mais rápido"
+                        ],
+                        "correta": "O resultado pode dar errado"
+                    },
+                    {
+                        "pergunta": "Por que usamos algoritmos na programação?",
+                        "opcoes": [
+                            "Para decorar o código",
+                            "Para facilitar o entendimento",
+                            "Para organizar as ideias e resolver problemas",
+                            "Para deixar o código invisível"
+                        ],
+                        "correta": "Para organizar as ideias e resolver problemas"
+                    },
+                    {
+                        "pergunta": "Qual das opções representa bem um algoritmo do dia a dia?",
+                        "opcoes": [
+                            "Conversar com amigos",
+                            "Assistir TV",
+                            "Fazer um café passo a passo",
+                            "Ler um livro"
+                        ],
+                        "correta": "Fazer um café passo a passo"
+                    }
+                ]
+            },
+            {
+                "titulo": "Fluxogramas",
+                "conteudos": [
+                    {
+                        "parte": "Fluxogramas são diagramas que representam visualmente um algoritmo usando símbolos padronizados."
+                    },
+                    {
+                        "parte": "Eles ajudam a entender melhor o fluxo do programa e a planejar a lógica antes de programar."
+                    },
+                    {
+                        "parte": "Símbolos comuns:\n- Elipse: início/fim\n- Retângulo: processo\n- Losango: decisão"
+                    }
+                ],
+                "quiz": [
+                    {
+                        "pergunta": "O que é um fluxograma?",
+                        "opcoes": [
+                            "Um código-fonte",
+                            "Um gráfico de barras",
+                            "Um diagrama que mostra a lógica de um algoritmo",
+                            "Uma tabela de dados"
+                        ],
+                        "correta": "Um diagrama que mostra a lógica de um algoritmo"
+                    },
+                    {
+                        "pergunta": "Qual símbolo representa uma decisão em um fluxograma?",
+                        "opcoes": [
+                            "Círculo",
+                            "Losango",
+                            "Quadrado",
+                            "Seta"
+                        ],
+                        "correta": "Losango"
+                    },
+                    {
+                        "pergunta": "Para que usamos fluxogramas?",
+                        "opcoes": [
+                            "Desenhar paisagens",
+                            "Ilustrar ideias artísticas",
+                            "Representar algoritmos",
+                            "Gerar códigos automaticamente"
+                        ],
+                        "correta": "Representar algoritmos"
+                    },
+                    {
+                        "pergunta": "O que o retângulo indica em um fluxograma?",
+                        "opcoes": [
+                            "Início",
+                            "Fim",
+                            "Processo",
+                            "Decisão"
+                        ],
+                        "correta": "Processo"
+                    },
+                    {
+                        "pergunta": "Qual símbolo é usado para marcar o início e o fim?",
+                        "opcoes": [
+                            "Retângulo",
+                            "Losango",
+                            "Elipse",
+                            "Triângulo"
+                        ],
+                        "correta": "Elipse"
+                    }
+                ]
+            },
+            {
+                "titulo": "Operadores lógicos e relacionais",
+                "conteudos": [
+                    {
+                        "parte": "Operadores relacionais comparam dois valores e retornam True ou False:\n- `==`, `!=`, `>`, `<`, `>=`, `<=`"
+                    },
+                    {
+                        "parte": "Operadores lógicos combinam expressões booleanas:\n- `and`, `or`, `not`"
+                    },
+                    {
+                        "parte": "Exemplo:\n```python\nidade = 20\nprint(idade >= 18 and idade <= 30)\n```"
+                    }
+                ],
+                "quiz": [
+                    {
+                        "pergunta": "Qual operador verifica se dois valores são iguais?",
+                        "opcoes": [
+                            "=",
+                            "==",
+                            "!=",
+                            "<>"
+                        ],
+                        "correta": "=="
+                    },
+                    {
+                        "pergunta": "O que significa o operador `!=`?",
+                        "opcoes": [
+                            "Igual",
+                            "Maior que",
+                            "Diferente",
+                            "Menor ou igual"
+                        ],
+                        "correta": "Diferente"
+                    },
+                    {
+                        "pergunta": "O que retorna `True and False`?",
+                        "opcoes": [
+                            "True",
+                            "False",
+                            "Erro",
+                            "Nenhum"
+                        ],
+                        "correta": "False"
+                    },
+                    {
+                        "pergunta": "Qual operador retorna verdadeiro se uma das condições for verdadeira?",
+                        "opcoes": [
+                            "and",
+                            "or",
+                            "not",
+                            "=="
+                        ],
+                        "correta": "or"
+                    },
+                    {
+                        "pergunta": "O que o operador `not` faz?",
+                        "opcoes": [
+                            "Soma valores",
+                            "Inverte o valor lógico",
+                            "Compara números",
+                            "Cria uma string"
+                        ],
+                        "correta": "Inverte o valor lógico"
+                    }
+                ]
+            },
+            {
+                "titulo": "Estruturas de decisão",
+                "conteudos": [
+                    {
+                        "parte": "Estruturas de decisão permitem que o programa tome caminhos diferentes com base em condições."
+                    },
+                    {
+                        "parte": "Exemplo:\n```python\nif idade >= 18:\n    print(\"Maior de idade\")\nelse:\n    print(\"Menor de idade\")\n```"
+                    },
+                    {
+                        "parte": "Podemos usar `if`, `elif` e `else` para testar múltiplas condições."
+                    }
+                ],
+                "quiz": [
+                    {
+                        "pergunta": "O que a estrutura `if` faz?",
+                        "opcoes": [
+                            "Repete código",
+                            "Define uma função",
+                            "Toma decisões",
+                            "Cria uma variável"
+                        ],
+                        "correta": "Toma decisões"
+                    },
+                    {
+                        "pergunta": "Quando o `else` é executado?",
+                        "opcoes": [
+                            "Sempre",
+                            "Quando `if` é verdadeiro",
+                            "Quando `if` é falso",
+                            "Nunca"
+                        ],
+                        "correta": "Quando `if` é falso"
+                    },
+                    {
+                        "pergunta": "Qual comando usamos para uma condição adicional ao `if`?",
+                        "opcoes": [
+                            "else",
+                            "elseif",
+                            "elif",
+                            "switch"
+                        ],
+                        "correta": "elif"
+                    },
+                    {
+                        "pergunta": "O que esse código imprime?\n```python\nx = 5\nif x > 10:\n    print(\"Maior\")\nelse:\n    print(\"Menor ou igual\")\n```",
+                        "opcoes": [
+                            "Maior",
+                            "Menor ou igual",
+                            "Erro",
+                            "Nada"
+                        ],
+                        "correta": "Menor ou igual"
+                    },
+                    {
+                        "pergunta": "É possível usar várias condições em um `if`?",
+                        "opcoes": [
+                            "Sim, com `and` ou `or`",
+                            "Não",
+                            "Apenas com `not`",
+                            "Somente fora do `if`"
+                        ],
+                        "correta": "Sim, com `and` ou `or`"
+                    }
+                ]
+            },
+            {
+                "titulo": "Repetições com while e for",
+                "conteudos": [
+                    {
+                        "parte": "Estruturas de repetição executam um bloco de código várias vezes."
+                    },
+                    {
+                        "parte": "O `while` repete enquanto uma condição for verdadeira:\n```python\nx = 0\nwhile x < 5:\n    print(x)\n    x += 1\n```"
+                    },
+                    {
+                        "parte": "O `for` é usado para percorrer sequências:\n```python\nfor i in range(5):\n    print(i)\n```"
+                    }
+                ],
+                "quiz": [
+                    {
+                        "pergunta": "O que a estrutura `while` faz?",
+                        "opcoes": [
+                            "Executa uma vez",
+                            "Ignora condições",
+                            "Repete enquanto a condição for verdadeira",
+                            "Cria variáveis"
+                        ],
+                        "correta": "Repete enquanto a condição for verdadeira"
+                    },
+                    {
+                        "pergunta": "O que faz `range(5)` em um `for`?",
+                        "opcoes": [
+                            "Cria 5 listas",
+                            "Conta de 0 a 4",
+                            "Inicia em 5",
+                            "Conta até 6"
+                        ],
+                        "correta": "Conta de 0 a 4"
+                    },
+                    {
+                        "pergunta": "Qual a saída do código `for i in range(3): print(i)`?",
+                        "opcoes": [
+                            "1 2 3",
+                            "0 1 2",
+                            "3 2 1",
+                            "Erro"
+                        ],
+                        "correta": "0 1 2"
+                    },
+                    {
+                        "pergunta": "Quando o `while` para de repetir?",
+                        "opcoes": [
+                            "Quando o computador desliga",
+                            "Quando a condição fica falsa",
+                            "Sempre após 10 vezes",
+                            "Quando o usuário digita 'fim'"
+                        ],
+                        "correta": "Quando a condição fica falsa"
+                    },
+                    {
+                        "pergunta": "Qual comando altera a variável dentro do `while`?",
+                        "opcoes": [
+                            "append()",
+                            "print()",
+                            "x += 1",
+                            "input()"
+                        ],
+                        "correta": "x += 1"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -18,7 +18,6 @@ def menu_tarefas(username):
         print("Nenhuma tarefa disponível no momento.")
         return
 
-    # Lista de títulos de tarefas concluídas
     concluidas = []
     for tarefa in tasks:
         titulo = tarefa["titulo"]
@@ -33,8 +32,6 @@ def menu_tarefas(username):
         if concluido:
             concluidas.append(titulo)
 
-
-    # Filtra tarefas não concluídas
     tarefas_disponiveis = [t for t in tasks if t["titulo"] not in concluidas]
 
     if not tarefas_disponiveis:
@@ -75,10 +72,8 @@ def mostrar_etapas(tarefa, username):
     while True:
         etapas = tarefa["etapas"]
 
-        # Obtem progresso da tarefa atual
         progresso_tarefa = progresso.get(tarefa["titulo"], {})
 
-        # Filtra etapas não concluídas
         etapas_pendentes = [
             (i, e) for i, e in enumerate(etapas)
             if e["titulo"] not in progresso_tarefa or not progresso_tarefa[e["titulo"]].get("concluida", False)
@@ -134,7 +129,7 @@ def executar_etapa(etapa, tarefa_titulo, username, progresso):
     indice = 0
 
     while True:
-        os.system("clear" if os.name != "nt" else "cls")  # limpa o terminal
+        os.system("clear" if os.name != "nt" else "cls")  
         print(f"\n📘 Etapa: {etapa['titulo']}\n")
         print(f"📖 {partes[indice]['parte']}\n")
 
@@ -209,7 +204,6 @@ def executar_etapa(etapa, tarefa_titulo, username, progresso):
 
     input("\nPressione Enter para continuar...")
 
-    # Salvar progresso
     if tarefa_titulo not in progresso:
         progresso[tarefa_titulo] = {}
 

@@ -111,7 +111,6 @@ def mostrar_progresso(username):
 
 
 def main():
-    # Criação de pastas se não existirem
     os.makedirs("data/progress", exist_ok=True)
 
     while True:
